@@ -1,0 +1,105 @@
+.encabezado {
+ background-size: cover;
+  background-position: 0 0;
+  background-attachment: fixed;
+background-image: url(../images/patrick-lindenberg-191841.jpg);
+height: 100vh;
+}
+@font-face {
+    font-family: Giant;
+    src:local(../fonts/GiantRobotArmy/GiantRobotArmy-Medium);
+}
+
+nav ul li{
+    color: #6BCB07;
+    text-decoration: none;
+    font-family: giant;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+    margin: 1em;
+}
+nav .menu:hover {
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+
+
+.menuabajo {
+    position:absolute; /*El div será ubicado con relación a la pantalla*/
+left:0px; /*A la derecha deje un espacio de 0px*/
+right:0px; /*A la izquierda deje un espacio de 0px*/
+bottom:0px; /*Abajo deje un espacio de 0px*/
+height:50px; /*alto del div*/
+z-index:0;
+text-decoration: none;
+text-align: center;
+}
+h1 {
+	position: absolute;
+	color: #EEEEEE;
+    font-family: "Giant";
+}
+h3 {
+    font-family: 'Bungee Shade', sans-serif;
+}
+p {
+    font-family: 'Yeseva One', sans-serif;
+}
+.laboral_font {
+     font-family: 'Yeseva One', sans-serif;
+}	
+#nombre{
+    margin-top: 4.2em;
+    margin-left: 1.2em;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Bungee Shade', sans-serif;
+    color: #6BCB07;
+}
+img {
+	position: absolute;
+}
+#educacion {
+    float: left;
+    margin-top: 10.5em;
+}
+.explaboral {
+    background-color: #F9F9F9;
+}
+.habilidades {
+    margin: 2em 2em;
+}
+.img_hab {
+   opacity: .4;
+}
+
+.blanco {
+    color: #FFFFFF;
+}
+/*estilos css del video*/
+#video { 
+ 
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+ 
+  position: fixed;    
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); 
+ 
+  z-index: -100;
+ 
+  background-size: cover;
+ 
+}
+.sociales{
+      margin-top: 2em;
+    text-align: center;
+    letter-spacing: 2em;
+  } 
+
