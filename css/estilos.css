@@ -37,6 +37,12 @@ z-index:0;
 text-decoration: none;
 text-align: center;
 }
+body {
+   background-size: cover;
+  background-position: 0 0;
+  background-attachment: fixed;
+background-image: url(../images/nate-grant-346782-unsplash.jpg);
+}
 h1 {
 	position: absolute;
 	color: #EEEEEE;
@@ -79,7 +85,7 @@ img {
 .blanco {
     color: #FFFFFF;
 }
-/*estilos css del video*/
+/*estilos css del video
 #video { 
  
   min-width: 100%;
@@ -96,7 +102,7 @@ img {
  
   background-size: cover;
  
-}
+}*/
 .sociales{
       margin-top: 2em;
     text-align: center;

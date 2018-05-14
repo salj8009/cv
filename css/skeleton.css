@@ -412,7 +412,7 @@ there.
 }
 
 /* Larger than tablet */
-@media (max-width: 1100px) {
+@media (max-width: 800px) {
  #nombre{
     margin-top: 2.4em;
     margin-left: 1.2em;
@@ -436,7 +436,7 @@ nav ul li {
      background-size: cover;
   background-position: 0 0;
   background-attachment: fixed;
-background-image: url(../images/artem-sapegin-176819-unsplash.jpg);
+background-image: url(../images/rawpixel.jpg);
 }
 }
 
